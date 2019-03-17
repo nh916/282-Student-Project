@@ -1,0 +1,18 @@
+status.txt
+
+ status:
+    The program compiles and runs and all the methods work well except for cover. All the exceptions are handeled and if the user mistypes or there is any kind of exception it will not end the program. Cover method only returns 2 and we did not get to fully implement cover. In most test cases that we tried the answer to cover was 2, thus it always returns 2. The program was tested and in all situations the program worked well with the exception with cover. 
+
+Documentation:
+    When the program runs it immediately looks for the file called "data.txt" if not found it will throw an exception and keep going. Then the program will ask for input. The user can type in "help" to get a list of all the things that the user can do. Then the user can put in the name of what they want to do, and it will provide on screen instructions to what to put in next and then it will return the answer to what the user asked for.
+
+Algorithms and Data structures:
+    Navid originally used linkedLists because Navid was not sure if ArrayLists are allowed, but after switched to an ArrayList because it performs better, and it is implemented exactly the same as a linkedList but with better performance.
+    Originally, Navid thought Navid needed two constructors for student, so Navid could have one just to pass in the ID and not the rest. After using the debug, Navid realized that it is comparing the student object of ID with the rest as NULL against the other students. A while later Navid commented out the second constructor and only passed in NULL to the constructor and it worked fine, and Navid was surperised.
+    Cover was worked on for several hours and there are large chunks of code that is commented out because it was tried and did not work.
+
+Group:
+    Arrah wrote most of the load data method and Navid wrote the part of parsing the data with her and the help of a tutor. Arrah put the classes needed in the project and organized the project. Navid wrote the entire Students class, GroupData, the Driver class, and the status file. The Sunday night before project was due Navid was at the hospital and rushed to the emergency room, and he could not continue to work on the project for that night. Navid, Arrah, and Tony spent 7 hours in the tutoring center with tutors on Monday trying multiple ways to find cover and could not find the answer. Sunday before Navid, Arrah, and Tony sat in the Jacaranda lobby for three hours and worked on cover and could not find the answer to it. Tony, Arrah, and Navid thought through the cover method and came up with a workable solution and on Monday were proven wrong by the Professor and had to think of a new solution. When asking the tutors, they did not know how to solve the problem or implement the code. Navid went to tutoring center more than 7 times for the project and every tutor spoken to would not know how to do cover method. The entire code was always online and available to be seen on Dropbox, and Navid frequently provided updates on the parts that aren't finished. However, Navid could not implement an algorithm for cover.
+
+    Possibilities:
+    	If we had extra time, there was a chance that we could change it from hard coding the student group values to soft code.
